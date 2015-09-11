@@ -9,4 +9,5 @@
     <string name="ExampleAnim">Un example d\'animation</string>
     <string name="Animation">Une animation</string>
     <string name="launch_animation">Lancer l\'animation</string>
+    <string name="principal_activity">Activité principale</string>
 </resources>
