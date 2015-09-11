@@ -6,7 +6,51 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="test.ensicaen.fr.mysimpleapp.FragmentFirstActivityFragment">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView android:text="@string/ExampleAnim" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_activity_first"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Animation"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/launch_animation"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconSun1"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/sun_icon" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconSun2"
+        android:src="@mipmap/sun_icon"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/iconSun1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconSun3"
+        android:src="@mipmap/sun_icon"
+        android:layout_below="@+id/textView"
+        android:layout_toStartOf="@+id/iconSun1" />
 
 </RelativeLayout>

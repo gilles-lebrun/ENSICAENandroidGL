@@ -5,4 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="action_add">Ajouter</string>
     <string name="title_activity_fragment_first">FragmentFirstActivity</string>
+    <string name="launch_first_activity">Lancer First Activity</string>
+    <string name="ExampleAnim">Un example d\'animation</string>
+    <string name="Animation">Une animation</string>
+    <string name="launch_animation">Lancer l\'animation</string>
 </resources>
