@@ -82,7 +82,6 @@ public class FragmentFirstActivity extends AppCompatActivity {
         toggle(textView, imageView1, imageView2, imageView3);
         count+=1;
         count%=8;
-
     }
 
     private static void toggle(View... views){
