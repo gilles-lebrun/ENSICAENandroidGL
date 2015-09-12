@@ -1,7 +1,7 @@
 package test.ensicaen.fr.mysimpleapp;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.transition.AutoTransition;
 import android.transition.Explode;
 import android.transition.Fade;
@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class FragmentFirstActivity extends AppCompatActivity {
+public class FragmentFirstActivity extends Activity {
     private ViewGroup viewGroup;
     private TextView textView;
     private ImageView imageView1, imageView2, imageView3;

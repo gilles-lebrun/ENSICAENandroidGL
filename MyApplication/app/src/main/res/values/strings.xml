@@ -10,4 +10,7 @@
     <string name="Animation">Une animation</string>
     <string name="launch_animation">Lancer l\'animation</string>
     <string name="principal_activity">Activité principale</string>
+    <string name="title_torvalds">Linus Torvalds</string>
+    <string name="desc_torvalds">Concepteur du noyau Linux</string>
+
 </resources>

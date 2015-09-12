@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="background_cardview">#71ff7a</color>
+    <color name="orange">#ffc211</color>
+    <color name="orange_fonce">#F57C00</color>
+    <color name="bleu_clair">#03A9F4</color>
+    <color name="noir">#DF000000</color>
+    <color name="gris_fonce">#8A000000</color>>
 </resources>

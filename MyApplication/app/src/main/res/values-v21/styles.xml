@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Material.Light">
         <!-- Customize your theme here. -->
         <item name="android:colorPrimary">@color/orange</item>
@@ -10,5 +10,4 @@
         <item name="android:textColor">@color/gris_fonce</item>
         <item name="android:navigationBarColor">@color/orange_fonce</item>
     </style>
-
 </resources>
